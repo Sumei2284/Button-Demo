@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 在src資料夾內新增及撰寫App.tsx, firstlayout.tsx, firstlayout.css
 App.tsx為主程式，並呼叫firstlayout.tsx來呈現按鈕。
-在firstlayout.tsx中實現按鈕收合的功能跟套用來呈現顏色變化。
+在firstlayout.tsx中實現按鈕收合的功能跟套用firstlayout.css來呈現顏色變化。
 細節概念都有寫註解在程式碼。
 
 ## 目前待改善
