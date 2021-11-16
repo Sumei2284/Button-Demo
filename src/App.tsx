@@ -1,26 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import FirstLayout from './firstlayut';
 
 function App() {
+  const firstlayout = ['TEST1','TEST2','TEST3'];
+  const secondlayout = ['AAA','BBB','CCC'];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FirstLayout btnName={firstlayout[0]} secondbtnName={secondlayout[0]} />
+      <FirstLayout btnName={firstlayout[1]} secondbtnName={secondlayout[1]} />
+      <FirstLayout btnName={firstlayout[2]} secondbtnName={secondlayout[2]} />
+      <button >console log</button>
     </div>
   );
 }
 
 export default App;
+

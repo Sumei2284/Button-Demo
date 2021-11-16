@@ -1,0 +1,33 @@
+.L1-default {
+    background-color:chartreuse;
+    width: 100%;
+    max-width: 100px;
+}
+
+.L1-clicked {
+    background-color: darkgray;
+    width: 100%;
+    max-width: 100px;
+}
+.L2-default {
+    background-color: cornflowerblue;
+    width: 100%;
+    max-width: 50px;
+}
+
+.L2-limit {
+    background-color: darkgray;
+    width: 100%;
+    max-width: 50px;
+}
+
+.L2-limit-clicked {
+    background-color: cornflowerblue;
+    width: 100%;
+    max-width: 50px;
+}
+
+.limitInput {
+    width: 100%;
+    max-width: 50px;
+}
